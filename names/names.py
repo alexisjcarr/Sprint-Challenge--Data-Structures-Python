@@ -24,15 +24,15 @@ duplicates = []  # Return the list of duplicates in this data structure
 
 # runtime for new code was ~ 0.14 seconds
 # runtime complexity was 
-# bst = BSTNode('root')
-# [bst.insert(name_1) for name_1 in names_1]
-# # for name_1 in names_1: # n
-# #     bst.insert(name_1) # n
+bst = BSTNode('root')
+[bst.insert(name_1) for name_1 in names_1]
+# for name_1 in names_1: # n
+#     bst.insert(name_1) # n
 
-# [duplicates.append(name_2) for name_2 in names_2 if bst.contains(name_2)]
-# # for name_2 in names_2: # n
-# #     if bst.contains(name_2): 
-# #         duplicates.append(name_2) # 1
+[duplicates.append(name_2) for name_2 in names_2 if bst.contains(name_2)]
+# for name_2 in names_2: # n
+#     if bst.contains(name_2): 
+#         duplicates.append(name_2) # 1
 
 # # O(n^2) + O(n) => n(n+1)
 
